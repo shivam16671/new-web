@@ -1,0 +1,29 @@
+CAprep-Android/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/caprep/
+│   │   │   │   ├── data/           # Data layer
+│   │   │   │   ├── di/             # Dependency injection
+│   │   │   │   ├── ui/             # UI components
+│   │   │   │   ├── utils/          # Utilities
+│   │   │   │   └── CAprepApp.kt    # Application class
+│   │   │   ├── res/                # Resources
+│   │   │   └── AndroidManifest.xml
+│   │   └── test/                   # Unit tests
+│   └── build.gradle
+├── core/                           # Shared modules
+│   ├── network/                    # Network layer
+│   ├── database/                   # Local storage
+│   └── auth/                       # Authentication
+├── features/                       # Feature modules
+│   ├── dashboard/
+│   ├── learning/
+│   ├── tests/
+│   ├── doubt/
+│   ├── planner/
+│   ├── forums/
+│   └── marketplace/
+├── gradle/
+├── build.gradle                    # Project-level
+└── README.md
